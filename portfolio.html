@@ -20,55 +20,114 @@
 </head>
 
 <body>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="transparent z-depth-0">
+            <div class="nav-wrapper navbar">
+                <h1 class="brand-logo center name">Matthew Romano</h1>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="left">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact Info</a></li>
+                </ul>
+                <ul id="mobile-demo" class="sidenav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="./contact.html">Contact Info</a></li>
+                </ul>
+            </div>
+        </nav>
 
-    <!-- Navbar -->
-    <nav class="transparent z-depth-0">
-        <div class="nav-wrapper navbar">
-            <h1 class="brand-logo center name">Matthew Romano</h1>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-mobile" class="left">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="./contact.html">Contact Info</a></li>
-            </ul>
-            <ul id="mobile-demo" class="sidenav">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="./contact.html">Contact Info</a></li>
-            </ul>
+        <h1 class="page-header grey-text text-darken-4">CREATIONS</h1>
+
+        <!-- ROW 1 -->
+        <div class="row">
+            <div class="empty col s3"></div>
+            <!-- PASSWORD GENERATOR -->
+            <div class="card transparent col s6 text">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./passGen.JPG" alt="Password Generator">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Password Generator<i class="material-icons right more_vert">More
+                            Information</i></span>
+                    <p><a href="https://mromano84.github.io/password-generator/">Try out the Password Generator!</a></p>
+                    <p><a href="https://github.com/MRomano84/password-generator">See the code!</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Password Generator<i
+                            class="material-icons right">close</i></span>
+                    <p>Using Vanilla JavaScript, this simple app lets you control input parameters to generate a uniqe
+                        and random password.</p>
+                    <p>Use the slider to select the length of password you would like. Then, make sure at least 1
+                        checkbox of the 4 character
+                        types are selected.</p>
+                    <p>Finally, click the 'GENERATE' button to generate a random password based on the parameters you
+                        selected.</p>
+                </div>
+            </div>
+            <div class="empty col s3"></div>
         </div>
-    </nav>
-
-    <h1 class="page-header grey-text text-darken-4">CREATIONS</h1>
-
-    <!-- ROW 1 -->
-    <div class="row">
-        <div class="empty col s3"></div>
-        <!-- PASSWORD GENERATOR -->
-        <div class="card transparent col s6 text">
-            <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src="./passGen.JPG" alt="Password Generator">
+        <!-- ROW 2 -->
+        <div class="row">
+            <div class="empty col s3"></div>
+            <!-- WEATHER DASHBOARD -->
+            <div class="card transparent col s6">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./weathDash.JPG">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">Weather Dashboard<i class="material-icons right more_vert">More
+                            Information</i></span>
+                    <p><a href="https://mromano84.github.io/weather-dashboard/">Try out the Weather Dashboard!</a></p>
+                    <p><a href="https://github.com/MRomano84/weather-dashboard">See the code!</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Weather Dashboard<i
+                            class="material-icons right">close</i></span>
+                    <p>The Weather Dashboard allows you to see the current weather conditions, along with a 5-day
+                        forecast. This is possible
+                        because of Openweather API.
+                    </p>
+                </div>
             </div>
-            <div class="card-content">
-                <span class="card-title activator">Password Generator<i class="material-icons right more_vert">More
-                        Information</i></span>
-                <p><a href="https://mromano84.github.io/password-generator/">Try out the Password Generator!</a></p>
-                <p><a href="https://github.com/MRomano84/password-generator">See the code!</a></p>
-
-            </div>
-            <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Password Generator<i
-                        class="material-icons right">close</i></span>
-                <p>Using Vanilla JavaScript, this simple app lets you control input parameters to generate a uniqe
-                    and random password.</p>
-                <p>Use the slider to select the length of password you would like. Then, make sure at least 1
-                    checkbox of the 4 character
-                    types are selected.</p>
-                <p>Finally, click the 'GENERATE' button to generate a random password based on the parameters you
-                    selected.</p>
-            </div>
+            <div class="empty col s3"></div>
         </div>
-        <div class="empty col s3"></div>
+
+        <!-- ROW 3 -->
+        <div class="row">
+            <div class="empty col s3"></div>
+            <!-- TRUFFLE SHUFFLE -->
+            <div class="card transparent col s6">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./truffShuff.JPG">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator">TRUFFLE SHUFFLE<i
+                            class="material-icons right grey-text more_vert">More Information</i></span>
+                    <p><a href="https://laura-bullek.github.io/Truffle-Shuffle/">Click here to try TRUFFLE SHUFFLE!</a>
+                    </p>
+                    <p><a href="https://github.com/Laura-Bullek/Truffle-Shuffle">See the code!</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">TRUFFLE SHUFFLE<i
+                            class="material-icons right">close</i></span>
+                    <p>Truffle Shuffle is an app that was created to help a user select a movie and a cocktail with the
+                        use of a random wheel.
+                        
+                    <p>It was GROUP 1's submission for project #1 of the UNH Coding Bootcamp. The group was comprised
+                        of 4 members.</p>
+                    <ul>
+                        <li>Laura Bullek</li>
+                        <li>Matthew Romano</li>
+                        <li>Edward Huang</li>
+                        <li>Brian Jenkins</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="empty col s3"></div>
+        </div>
     </div>
 
 
