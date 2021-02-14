@@ -1,0 +1,7 @@
+html {
+    background: url(./code_tunnel.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backgound-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
