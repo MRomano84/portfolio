@@ -5,3 +5,28 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+h1.name {
+    font-size: 51px;
+    text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+    letter-spacing: -1px;
+}
+
+span.card-title {
+    color: whitesmoke;
+}
+
+div.card-content {
+    background-color: rgb(14, 11, 46);
+}
+
+h1.page-header {
+    color: rgb(1, 49, 92);
+    font-weight: 800;
+    text-shadow: 2px 2px 8px rgb(116, 181, 237);
+}
+
+div.card-image img {
+    max-height: auto;
+    max-width: auto;
+}
